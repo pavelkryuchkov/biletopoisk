@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.amount {
+  font-size: 20px;
+  font-weight: 600;
+}
