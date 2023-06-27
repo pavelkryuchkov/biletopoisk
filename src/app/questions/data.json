@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "question": "Что такое Билетопоиск?",
+    "answer": "Мы — крупнейший сервис о кино в рунете. На нем вы сможете посмотреть фильмы и сериалы, купить билеты в кино, узнать рейтинги популярных видео и интересные факты, поставить фильмам оценки, написать рецензии и дополнить описание фильмов."
+  },
+  {
+    "id": 1,
+    "question": "Какой компании принадлежит Билетопоиск?",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur illum, perferendis fugit tempore, tempora ea corporis quo deleniti explicabo eveniet ad temporibus non voluptate nam velit aut quidem sed fuga?"
+  },
+  {
+    "id": 2,
+
+    "question": "Как купить билет на Билетопоиск?",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur illum, perferendis fugit tempore, tempora ea corporis quo deleniti explicabo eveniet ad temporibus non voluptate nam velit aut quidem sed fuga?"
+  },
+  {
+    "id": 3,
+    "question": "Как оставить отзыв на Билетопоиск?",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur illum, perferendis fugit tempore, tempora ea corporis quo deleniti explicabo eveniet ad temporibus non voluptate nam velit aut quidem sed fuga?"
+  }
+]
