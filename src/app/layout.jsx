@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </StoreProvider>
+        <div id="modal"></div>
       </body>
     </html>
   );

@@ -12,3 +12,8 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+.close {
+  margin-left: 16px;
+  cursor: pointer;
+}

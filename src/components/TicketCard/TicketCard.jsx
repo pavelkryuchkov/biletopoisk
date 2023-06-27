@@ -42,20 +42,9 @@ export default function TicketCard({
       </div>
       <CardButtons
         movieId={movieId}
-        className={
-          showClose ? styles.card__buttons_close : styles.card__buttons
-        }
+        showClose={showClose}
+        className={styles.card__buttons}
       />
-      {showClose && (
-        <Image
-          src="/close.svg"
-          alt="close"
-          width="20"
-          height="20"
-          className={styles.card_close}
-          onClick={() => dispatch(cartSlice.actions.delete(movieId))}
-        ></Image>
-      )}
     </div>
   );
 }
