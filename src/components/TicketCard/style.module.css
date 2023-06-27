@@ -32,3 +32,16 @@
   right: 24px;
   top: 24px;
 }
+
+.card__buttons_close {
+  position: absolute;
+  right: 68px;
+  top: 24px;
+}
+
+.card_close {
+  position: absolute;
+  right: 24px;
+  top: 26px;
+  cursor: pointer;
+}

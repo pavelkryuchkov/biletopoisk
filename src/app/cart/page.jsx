@@ -23,7 +23,10 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <TicketsList data={moviesData.filter((movie) => movie.id in cart)} />
+      <TicketsList
+        data={moviesData.filter((movie) => movie.id in cart)}
+        showClose={true}
+      />
       <div className={styles.total}>
         <span>Итого билетов:</span>
         <span>{totalAmount}</span>

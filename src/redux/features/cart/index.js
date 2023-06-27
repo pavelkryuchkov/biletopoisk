@@ -24,5 +24,10 @@ export const cartSlice = createSlice({
       state[payload] = count - 1;
       state.total -= 1;
     },
+
+    delete(state, { payload }) {
+      state.total -= state[payload];
+      delete state[payload];
+    },
   },
 });
