@@ -6,8 +6,10 @@ export const cartSlice = createSlice({
   reducers: {
     add(state, { payload }) {
       const count = state[payload] || 0;
-      state[payload] = count + 1;
-      state.total += 1;
+      state[payload] = Math.min(30, count + 1);
+      if (count < 30) {
+        state.total += 1;
+      }
     },
 
     remove(state, { payload }) {
